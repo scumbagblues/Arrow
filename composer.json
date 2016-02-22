@@ -1,0 +1,17 @@
+{
+    "name": "arrow/helloworld",
+    "description": "Arrow helloworld extension demo",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Arrow/HelloWorld"
+            ]
+        ]
+    }
+}
