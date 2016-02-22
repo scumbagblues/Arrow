@@ -5,12 +5,12 @@
         "magento/project-community-edition": "*"
     },
     "type": "magento2-module",
-    "version": "0.1.0-stable",
+    "version": "0.1.0",
     "extra": {
         "map": [
             [
                 "*",
-                "Arrow/HellowWorld/"
+                "Arrow/HellowWorld"
             ]
         ]
     },
