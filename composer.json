@@ -1,5 +1,5 @@
 {
-    "name": "arrow/helloworld",
+    "name": "Arrow/HelloWorld",
     "description": "Arrow helloworld extension demo",
     "require": {
         "magento/magento-composer-installer": "*"
