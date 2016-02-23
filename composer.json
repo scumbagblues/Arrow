@@ -20,5 +20,6 @@
             "homepage": "https://www.calligosolutions.com/",
             "role": "Developer"
         }
-    ]
+    ],
+    "minimum-stability": "stable",
 }
