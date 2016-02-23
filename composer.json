@@ -1,12 +1,18 @@
-"arrow": {
-    "type":"package",
-    "package": {
-        "name": "arrow/helloworld",
-        "version":"master",
-        "source": {
-            "url": "https://github.com/scumbagblues/Arrow.git",
-            "type": "git",
-            "reference":"master"
-        }
-    }
+{
+  "name": "arrow/helloworld",
+  "description": "Arrow Helloworld extension",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Arrow/HelloWorld"
+      ]
+    ]
+  }
 }
