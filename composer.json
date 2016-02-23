@@ -1,25 +1,12 @@
-{
-    "name": "arrow/helloworld",
-    "description": "Hello world Magento 2 Composer Module!",
-    "require": {
-        "magento/project-community-edition": "*"
-    },
-    "type": "magento2-module",
-    "version": "0.1.0",
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Arrow/HellowWorld"
-            ]
-        ]
-    },
-    "authors": [
-        {
-            "name": "Ricardo Cortes",
-            "homepage": "https://www.calligosolutions.com/",
-            "role": "Developer"
+"arrow": {
+    "type":"package",
+    "package": {
+        "name": "arrow/helloworld",
+        "version":"master",
+        "source": {
+            "url": "https://github.com/scumbagblues/Arrow.git",
+            "type": "git",
+            "reference":"master"
         }
-    ],
-    "minimum-stability": "stable",
+    }
 }
